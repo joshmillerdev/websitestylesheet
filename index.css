@@ -1,0 +1,157 @@
+/* 
+Color Palette:
+
+--morning-blue: hsla(182, 16%, 56%, 1);
+--tea-green: hsla(89, 62%, 87%, 1);
+--celadon: hsla(112, 32%, 76%, 1);
+--persian-green: hsla(173, 58%, 39%, 1);
+--deep-space-sparkle: hsla(198, 31%, 33%, 1);
+--charcoal: hsla(197, 37%, 24%, 1); 
+*/
+
+/* 
+Font Famlies:
+
+font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Fira Code', monospace;
+font-family: 'Playfair Display', serif; 
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+#morning-blue {background: hsla(182, 16%, 56%, 1)}
+#tea-green {background: hsla(89, 62%, 87%, 1)}
+#celadon {background: hsla(112, 32%, 76%, 1)} 
+#persian-green {background: hsla(165, 38%, 39%, 1)} 
+#deep-space-sparkle {background: hsla(198, 31%, 33%, 1)} 
+#charcoal {background: hsla(197, 37%, 19%, 1)} 
+
+.left-a {
+    text-align: left;
+}
+.font-example {
+    margin: 1em 20px;
+    /* border: 1px solid red; */
+    padding-top: 1em;
+    padding-bottom:.7em;
+}
+#text-styles div {
+    margin: 20px 20px;
+    padding: 10px 20px;
+    /* border: 1px solid red; */
+}
+#text-styles ul {
+    /* margin: 20px 20px; */
+    padding: 3px 20px 20px;
+    /* border: 1px solid red; */
+}
+.sticky {
+    position: sticky;
+    top:114px;
+    z-index:0;
+    background: hsla(165, 38%, 39%, .5);
+    /* border: 1px solid hsla(197, 37%, 24%, 1); */
+    border-radius: .1em;
+}
+section {
+    border: 1px solid hsla(197, 37%, 24%, 1);
+    padding: 15px 15px 20px;
+    margin: 15px auto;
+    width: 70%;
+}
+header {
+    padding: 1.5em 0;
+    margin: 0;
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: hsla(112, 32%, 76%, 1);
+    border-bottom: 3px solid hsla(198, 31%, 33%, 1);
+    z-index:10;
+
+}
+h1{
+    font-family: 'EB Garamond', cursive; 
+    font-weight: 500;
+    font-size: 3em;
+    text-align: center;
+    color: hsla(198, 31%, 33%, 1);
+}
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    color: hsla(197, 37%, 19%, 1);
+    margin: .5em 0;
+}
+h3{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: hsla(198, 31%, 33%, 1);
+    margin: .5em 0;
+}
+h4{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    font-size: 1.25em;
+    text-align: left;
+    color: hsla(198, 31%, 33%, 1);
+    margin: .5em 0;
+}
+p, li{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: hsla(197, 37%, 19%, 1);
+    margin: .5em 0;
+}
+table {
+    width: 90%;
+    margin: 2em auto;
+    border-collapse: collapse;
+    border: 1px solid hsla(197, 37%, 24%, 1)
+}
+td {
+    margin: 0;
+    padding: 2em;
+}
+
+.togray {
+    color:hsla(198, 31%, 33%, 1); 
+}
+td h4, td p {
+    text-align: center;
+    color: hsla(89, 62%, 87%, 1);
+}
+.toceladon{
+    color: hsla(112, 32%, 76%, 1)
+}
+
+.font-example+.font-example {
+    border-top: 1px solid hsla(182, 16%, 56%, 1);
+}
+
+#Archivo-Narrow h3, #Archivo-Narrow p{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+#Big-Shoulders-Display h3, #Big-Shoulders-Display p{
+    font-family: 'Big Shoulders Display', cursive;
+}
+#EB-Garamond h3, #EB-Garamond p{
+    font-family: 'EB Garamond', serif;
+}
+#Fira-Code h3, #Fira-Code p{
+    font-family: 'Fira Code', monospace;
+}
+#Playfair-Display h3, #Playfair-Display p{
+    font-family: 'Playfair Display', serif; 
+}
+#colors {
+    margin-top: 162px;
+}
